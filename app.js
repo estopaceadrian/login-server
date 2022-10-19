@@ -5,7 +5,7 @@ const sequelize = require('./utils/database.js');
 const router = require('./routes/routes.js');
 
 const app = express();
-
+const PORT = 5000;
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.json());
